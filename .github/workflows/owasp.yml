@@ -1,0 +1,13 @@
+name: AppSec Israel 2023
+
+on: push
+
+jobs:
+  appsecil:
+    runs-on: ubuntu-latest
+    name: Hello World!
+    steps:
+      - run: echo "Hello AppSec Israel 2023!"
+      - run: id
+      - run: uname -a
+      - run: env
